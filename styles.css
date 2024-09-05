@@ -1,0 +1,167 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+body{
+    background-color:rgb(134, 121, 103);
+    padding: 20px;
+
+}
+.join button{
+    background-color: orangered;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+header h2{
+    color: orangered;
+    margin-left: 15px;
+    margin-bottom: -35px;
+    font-size: 30px;
+  
+}
+
+.left{
+    width: 600px;
+    padding-bottom:10px ;
+    float: left;
+    font-size: 25px;
+    
+    
+    
+}
+
+form{
+    
+    background-color: rgb(40, 40, 46);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    float: right;
+    margin-top:2% ;
+  margin: ;
+
+    
+ } 
+ 
+ #search {
+    float:center;
+    display: inline-block;
+    margin-top: -500px;
+    margin-left: 900px;
+    border-color: rgb(228, 4, 4);
+ }  
+ #search input{
+    border-left: 2px solid orangered;
+    border-top: 3px solid orange;
+    border-bottom: 10px rgb(255, 51, 0);
+    background-color:rgb(228, 209, 183);
+    
+
+ }
+ #search button{
+    margin-left:-10px;
+    padding: 9px;
+    font-size: medium;
+    background-color: orangered;
+ }
+ .account button{
+    padding: 10px;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(128, 115, 115);
+    font-size: 20px;
+    color: rgb(243, 246, 248);
+    text-align: center;
+ }
+
+nav>ul{
+    list-style: none;
+    padding-left: 180px;
+    text-decoration-color: brown;
+    display: inline;
+    font-size: 30px;
+    
+    
+}
+nav>ul>li>a{
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 10px;
+    font-weight:bolder;
+}
+nav>ul>li>a:hover{
+    background-color: rgb(194, 11, 11);
+    color: rgb(18, 16, 22);
+    font-weight: bolder;
+    
+ 
+
+    
+}
+
+
+nav>ul>li{
+    display: inline;
+    color: rgb(211, 14, 14);
+}
+
+input{
+     border-color: brown;
+    border-top: 0;
+    border-bottom: 1px solid orangered;
+    border-radius: 10px;
+    padding:10px;
+    margin: 5px 0;
+    font-size: medium;
+}
+
+#loginWithEmail{
+    color :orangered
+}
+    
+/* form input{
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+}     */
+
+ form input:hover{
+        border-top:none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+        background: transparent;
+    }
+#login{
+    background-color: orangered;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    
+}
+
+#btn{
+    padding: 2px;
+    width: -200px;
+    height: 60px;
+    text-align: center;
+    font-size: px;
+    
+}
+    
+ .foot{
+    color:blue;
+    text-align: down;
+    margin-bottom:-5px ;
+ }   
